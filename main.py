@@ -106,7 +106,7 @@ for combination, probability in outcome_probabilities.items():
 
 # Get the probabilities for each treatment decision
 treated_prob = query_result.values[0]
-not_treated_prob = query_result.values[1]
+not_treated_prob = query_result.values[1] 
 
 # Display the result in a table
 print("C\t\tD=Positive\t\tD=Negative")
